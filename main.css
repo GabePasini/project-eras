@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+header {
+    padding: 16px 0;
+    background-color: #fff;
+    color: #000;
+    z-index: 1;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 40px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+}
+
+.container,
+.info,
+.tickets {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#home .container {
+    max-width: 100%;
+    align-items: center;
+    padding-top: 85px;
+}
+
+section .container img {
+    height: 100%
+}
+
+#home img {
+    max-height: 950px;
+    height: 100%
+}
+
+#home ul {
+    padding-left: 70px;
+}
+
+#home ul .tour-title,
+#home ul .tour-artist {
+    font-family: 'Playfair Display', serif;
+}
+
+#home ul .tour-artist {
+    font-size: 100px;
+    font-weight: bold;
+    transform: scale(1, 2);
+    z-index: 2;
+}
+
+#home ul .tour-title {
+    font-size: 97px;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+#home ul .tour-guest,
+#home ul .tour-guest-name,
+#home ul .tour-info {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#home ul .tour-guest,
+#home ul .tour-guest-name {
+    font-size: 35px;
+    text-align: right;
+}
+
+#home ul .tour-guest {
+    margin-top: -10px;
+    font-weight: lighter;
+}
+
+#home ul .tour-guest-name,
+#home ul .tour-info {
+    font-weight: bold;
+}
+
+#home ul .tour-info {
+    margin-top: 80px
+}
+
+.tour-info {
+    font-size: 38px;
+}
+
+#info {
+    padding-top: 40px;
+    background-color: #000;
+    color: #fff;
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+}
+
+#info p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#tickets {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: #000;
+}
+
+.tickets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px 0;
+    width: 300px;
+    max-width: 400px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+}
+
+article h3 {
+    font-size: 25px;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+article .sale {
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+article a {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 40px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+article a:hover {
+    background-color: #676767;
+}
+
+article .dates {
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+article .stadium {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+#contact .container {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+}
+
+.form p {
+    margin-bottom: 15px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 6px 0;
+}
+
+.form button {
+    margin-top: 10px;
+    padding: 6px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(216, 153, 216);
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 5px 7px 1px #9c9c9c;
+}
+
+.form button:hover {
+    background-color: rgb(122, 88, 122);
+    color: #fff;
+}
+
+.form button:active {
+    background-color: rgb(122, 88, 122);
+    color: #fff;
+    box-shadow: none;
+}
+
+.social li {
+    display: grid;
+    padding-bottom: 5px;
+}
+
+.social h3 {
+    margin-bottom: 15px;
+}
+
+.social li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.social li a:hover {
+    text-decoration: underline;
+}
